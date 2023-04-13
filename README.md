@@ -21,5 +21,5 @@ An integer in the range 0-4.
 A name of a file to read a matrix from
 
 ## run examples
-mpirun -np 4 ./run 1000 7 3
-mpirun -np 3 ./run 50 5 0 data.txt
+* mpirun -np 4 ./run 1000 7 3
+* mpirun -np 3 ./run 50 5 0 data.txt
