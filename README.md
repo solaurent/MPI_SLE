@@ -10,7 +10,7 @@ A size of a matrix to read or create. A positive integer.
 A bound for the number of rows and columns to be printed (works both for the initial matrix and the solution). Ranges from -1 up to the matrix size.
 * -1    the full solution with no auxillary data
 * 0     only auxillary data
-* 1-n   the first n by n submatrix of the initial matrix, the first n elements of the solution and some auxillary data
+* 1..n  the first n by n submatrix of the initial matrix, the first n elements of the solution and some auxillary data
 
 ### k - initialization method
 An integer in the range 0-4.
