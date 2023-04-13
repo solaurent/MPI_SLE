@@ -11,7 +11,7 @@ A bound for the number of rows and columns to be printed (works both for the ini
 * -1    the full solution with no auxillary data
 * 0     only auxillary data
 * 1-n   the first n by n submatrix of the initial matrix, the first n elements of the solution and some auxillary data
-* 
+
 ### initialization method
 An integer in the range 0-4.
 * 0     reading a matrix from a file, requires a filename (the last parameter)
