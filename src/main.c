@@ -48,8 +48,8 @@ int main(int argc, char **argv) {
 
 	// setting pointers
 
-	block.matrix[0] = (double *)block.matrix + (block.rows + 1);
-	for (i = 1; i <= block.rows; ++i)
+	block.matrix[0] = (double *)(block.matrix + (block.rows + 1));
+	for (i = 1; i < block.rows + 1; ++i)
 		block.matrix[i] = block.matrix[i - 1] + (block.n + 1);
 	
 	// initialization
